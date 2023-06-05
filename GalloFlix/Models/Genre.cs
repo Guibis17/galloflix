@@ -1,6 +1,6 @@
 namespace GalloFlix.Models;
 using System.ComponentModel.DataAnnotations;
-{
+
     public class Genre
     {
         [Key]
@@ -8,4 +8,3 @@ using System.ComponentModel.DataAnnotations;
         public string Name {get; set;}
             
     }
-}
